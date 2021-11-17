@@ -1,0 +1,241 @@
+@import 'https://fonts.googleapis.com/css2? family = Montserrat & display = swap';
+
+@import 'https://fonts.googleapis.com/css2? family = Rajdhani: wght @ 500 & display = swap';
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: 0;
+list-style: none;
+}
+
+header{
+width: 100vw;
+height: 25vh;
+background: #FAA2C0;
+position:fixed;
+display: flex;
+flex-direction: row;
+z-index: 1;
+}
+
+.logo-sakura{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    left: 5%;
+    border-radius: 50%;
+}
+
+nav{
+    width: 990px;
+    height: 25vh;
+    position: relative;
+    left: 10%;
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    width: 890px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list{
+    display: flex;
+    font-family: 'Rajdhani', sans-serif;
+    color: rgb(108, 163, 199);
+    font-size: 16px;
+    line-height: 25px;
+    transition: 2s all;
+}
+
+.list:hover{
+    font-size: 20px;
+    cursor: pointer;
+    color:rgb(255, 255, 255);
+}
+
+.family{
+    width: 15vw;
+    height: 79vh;
+    position: absolute;
+    top: 25.5%;
+    left: 85%;
+    background: #D95EA8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 0;
+
+}
+
+.Uchiha{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: 1s all;
+}
+
+.names{
+  font-family: 'Montserrat', sans-serif;
+  transition: 1s all;
+}
+
+.Uchiha:hover{
+    width: 170px;
+    height: 170px;
+    cursor: pointer;
+    background: rgb(255, 142, 240);
+}
+
+.names:hover{
+    font-size: 22px;
+    color: rgb(255, 142, 240);
+    cursor: pointer;
+}
+
+main{
+    height: 470vh;
+    width: 100vw;
+    background: #FFBAFF;
+}
+
+h1{
+  padding-top: 29vh;
+  padding-left: 35vw;
+  margin-bottom: 20px;
+}
+
+.geral{
+    width: 83vw;
+    height: 100vh;
+}
+
+main ul li{
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    line-height: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 15px;
+    padding-left: 9px;
+}
+
+#registro{
+    padding-left: 55px;
+}
+
+.dados{
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 15px;
+    padding-left: 25px;
+    font-weight: 800;
+    
+}
+
+.frases-afins{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.phrase{
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    line-height: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.galeria{
+    width: 100vw;
+    height: 50vw;
+}
+
+.galeria img{
+    width: 390px;
+    height: 550px;
+    margin-top: 150px;
+    margin-left: 19px;
+}
+
+.Uchiha-family{
+    width: 45%;
+    height: 500px;
+    margin-top: 100px;
+    padding-left: 29%;
+}
+
+h4{
+    width: 180px;
+    font-family:'Rajdhani', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(238, 137, 137);
+    margin-left: 45%;
+    margin-top: 20px;
+    transition: 1s all;
+}
+
+h4:hover{
+font-size: 22px;
+color: white;
+}
+
+footer{
+    height: 35vh;
+    width: 100vw;
+    background: #EB5ACF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.flores{
+    width: 150px;
+    height: 150px;
+ 
+}
+
+.sakura-1{
+    width: 150px;
+    height: 150px;   
+}
+
+.sarada{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: cursive;
+    transition: 1.5s all;
+}
+
+.sarada:hover{
+    color: rgba(255, 5, 5, 0.904);
+    font-size: 18.5;
+}
+
+.sasuke{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: cursive;
+    transition: 1.5s all;
+}
+
+.sasuke:hover{
+    color: rgb(9, 5, 255);
+    font-size: 18.5;
+}
